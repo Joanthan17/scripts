@@ -5,6 +5,15 @@ import sys
 import re
 from bs4 import BeautifulSoup
 
+"""
+checks which file extensions a given file-uploader api is supporting.  
+"""
+
+# TODO:
+# if i'll get to use it more often,
+# consider using argparse to get arguments
+# as input 
+
 url = "http://10.10.10.93/transfer.aspx"
 filename = "extensions.txt"
 
